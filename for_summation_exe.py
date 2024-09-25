@@ -12,7 +12,7 @@ upper = int(input("Enter the upper bound: "))
 
 the_sum = 0
 
-for number in range(lower, upper):
-    the_sum = the_sum + number
+for number in range(lower, upper + 1):
+    the_sum += number
 
 print("The summation of", lower, "to", upper, "is:", the_sum)
