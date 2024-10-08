@@ -5,9 +5,9 @@ Program: calc_loop.py
 
 start = int (input ("Put a starting number: "))
 end = int (input ("Put a ending number: "))
-count = 0
+num = start
 
-def create_list(r1, r2):
-    return [item for item in range(r1, r2+1)]
-
-print(create_list(start, end))
+for list in range(start, end):
+    num += 5
+    num = num * 6 / 5
+    print (num)
