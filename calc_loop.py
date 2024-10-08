@@ -9,5 +9,5 @@ num = start
 
 for list in range(start, end):
     num += 5
-    num = num * 6 / 5
+    num = num * 6 / 2
     print (num)
