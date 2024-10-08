@@ -11,8 +11,6 @@ answer = 0
 
 basic_arithmatic = input("Please enter one of the following: mult, add, sub, or div to decide what operation to be used. ")
 
-print (basic_arithmatic)
-
 if basic_arithmatic == "add":
     answer = num_one + num_two
 
@@ -25,4 +23,7 @@ if basic_arithmatic == "mult":
 if basic_arithmatic == "div":
    answer = num_one / num_two
 
-print(answer)
+if basic_arithmatic == "add" or "sub" or "mult" or "div":
+   print(answer)
+else:
+   print ("That isn't a valid operation, please try again")
